@@ -119,16 +119,22 @@ The system comprises several key components:
 - Memory (Redis): ~0.0001 ms
 - SSD: ~0.1 ms
 - HDD: ~10 ms
+
 **Throughput Analysis:**
+
 For 100M DAU with 5 redirects per day: 
 
 - Average: ~5,800 redirects/second 
 - Peak (100x): ~580,000 redirects/second
+
 A database alone cannot handle peak traffic; caching is essential.
 
 
-![bitly.flow](../assets/bitly.flow.png)
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/bitly.flow.png">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/bitly.flow.dark.png">
+  <img alt="Bitly Flow Integration" src="../assets/bitly.flow.dark.png">
+</picture>
 
 ### 5.3 Scaling to 1B URLs and 100M DAU
 **Storage Estimation:** 
