@@ -58,7 +58,6 @@ The system comprises several key components:
     - Server first checks the cache for the mapping. 
     - If not found, it queries the database, returns a 302 redirect, and caches the result for future requests.
 
-![image.png](https://eraser.imgix.net/workspaces/zhioXR801ktvcO8eMBPX/paDoxhkgN1O2azqRquWrzoGZLRD2/image_QYSydr_G0KtTewIUugdRb.png?ixlib=js-3.8.0 "image.png")
 
 ## 5. Deep Dives
 ### 5.1 Ensuring Unique Short URLs
@@ -164,7 +163,11 @@ Assuming 100K new URLs per day ≈ 1 write/second, easily handled by databases l
 6. **CDN/Edge** (optional for geographic latency reduction)
 
 
-![bitly.aws](../assets/bitly.aws.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/bitly.aws.png">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/bitly.aws.dark.png">
+  <img alt="Bitly AWS Integration" src="../assets/bitly.aws.dark.png">
+</picture>
 
 
 ## 6. Additional Considerations
