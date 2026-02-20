@@ -1,0 +1,507 @@
+[
+    {
+        "title": "Basics",
+        "description": "Core concepts to get started with system design.",
+        "topics": [
+            {
+                "topic": "System Design Introduction - HLD & LLD",
+                "url": "https://www.geeksforgeeks.org/system-design/getting-started-with-system-design/"
+            },
+            {
+                "topic": "Functional and Non Functional Requirements",
+                "url": "https://www.geeksforgeeks.org/software-engineering/functional-vs-non-functional-requirements/"
+            },
+            {
+                "topic": "Difference Between HLD and LLD",
+                "url": "https://www.geeksforgeeks.org/system-design/difference-between-high-level-design-and-low-level-design/"
+            }
+        ]
+    },
+    {
+        "title": "High Level Design",
+        "description": "Focuses on system architecture, components, and their interactions.",
+        "topics": [
+            {
+                "topic": "Introduction to High Level Design",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-high-level-design-learn-system-design/"
+            },
+            {
+                "topic": "High Level Design Diagram",
+                "url": "https://www.geeksforgeeks.org/system-design/how-to-draw-high-level-design-diagram/"
+            }
+        ]
+    },
+    {
+        "title": "System Architectural Styles",
+        "description": "Common architectural patterns used in system design.",
+        "topics": [
+            {
+                "topic": "Monolithic Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/monolithic-architecture-system-design/"
+            },
+            {
+                "topic": "Microservices",
+                "url": "https://www.geeksforgeeks.org/system-design/microservices/"
+            },
+            {
+                "topic": "Monolithic Vs Microservices Architecture",
+                "url": "https://www.geeksforgeeks.org/software-engineering/monolithic-vs-microservices-architecture/"
+            },
+            {
+                "topic": "Event-Driven Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/event-driven-architecture-system-design/"
+            },
+            {
+                "topic": "Serverless Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/serverless-architectures/"
+            },
+            {
+                "topic": "Stateful Vs Stateless Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/stateful-vs-stateless-architecture/"
+            },
+            {
+                "topic": "Pub/Sub Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-pub-sub/"
+            }
+        ]
+    },
+    {
+        "title": "Scalability",
+        "description": "Concepts and strategies for growing applications",
+        "topics": [
+            {
+                "topic": "Scalability in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-scalability/"
+            },
+            {
+                "topic": "Horizontal and Vertical Scaling",
+                "url": "https://www.geeksforgeeks.org/system-design/system-design-horizontal-and-vertical-scaling/"
+            },
+            {
+                "topic": "Right Scalability approach for our Application",
+                "url": "https://www.geeksforgeeks.org/system-design/which-scalability-approach-is-right-for-our-application-system-design/"
+            },
+            {
+                "topic": "Designing Highly Scalable Systems",
+                "url": "https://www.geeksforgeeks.org/system-design/guide-for-designing-highly-scalable-systems/"
+            },
+            {
+                "topic": "Primary Bottlenecks that Hurt the Scalability of an Application",
+                "url": "https://www.geeksforgeeks.org/system-design/primary-bottlenecks-that-hurt-the-scalability-of-an-application-system-design/"
+            }
+        ]
+    },
+    {
+        "title": "Databases in Designing Systems",
+        "description": "Databases, storage systems, and how they are used in system design.",
+        "topics": [
+            {
+                "topic": "Designing the Database",
+                "url": "https://www.geeksforgeeks.org/system-design/complete-reference-to-databases-in-designing-systems/"
+            },
+            {
+                "topic": "Types of Database",
+                "url": "https://www.geeksforgeeks.org/system-design/types-of-databases-in-system-design/"
+            },
+            {
+                "topic": "Choosing a Database - SQL or NoSQL",
+                "url": "https://www.geeksforgeeks.org/system-design/which-database-to-choose-while-designing-a-system-sql-or-nosql/"
+            },
+            {
+                "topic": "File and Database Storage Systems",
+                "url": "https://www.geeksforgeeks.org/system-design/file-and-database-storage-systems-in-system-design/"
+            },
+            {
+                "topic": "Database Replication in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/database-replication-and-their-types-in-system-design/"
+            },
+            {
+                "topic": "Database Sharding",
+                "url": "https://www.geeksforgeeks.org/system-design/database-sharding-a-system-design-concept/"
+            },
+            {
+                "topic": "Block, Object, and File Storage",
+                "url": "https://www.geeksforgeeks.org/system-design/block-object-and-file-storage-in-cloud-with-difference/"
+            },
+            {
+                "topic": "Normalization Process in DBMS",
+                "url": "https://www.geeksforgeeks.org/dbms/introduction-of-database-normalization/"
+            },
+            {
+                "topic": "SQL Query Optimization",
+                "url": "https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations/"
+            },
+            {
+                "topic": "Denormalization in Databases",
+                "url": "https://www.geeksforgeeks.org/dbms/denormalization-in-databases/"
+            },
+            {
+                "topic": "Intro to Redis",
+                "url": "https://www.geeksforgeeks.org/system-design/introduction-to-redis-server/"
+            }
+        ]
+    },
+    {
+        "title": "Consistency, Availability, Reliability & Maintainability",
+        "description": "Core system qualities that impact user experience and system health.",
+        "topics": [
+            {
+                "topic": "Availability in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/availability-in-system-design/"
+            },
+            {
+                "topic": "Achieving High Availability",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-high-availability-in-system-design/"
+            },
+            {
+                "topic": "Consistency in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/consistency-in-system-design/"
+            },
+            {
+                "topic": "Consistency pattern",
+                "url": "https://www.geeksforgeeks.org/system-design/consistency-patterns/"
+            },
+            {
+                "topic": "CAP Theorem",
+                "url": "https://www.geeksforgeeks.org/system-design/cap-theorem-in-system-design/"
+            },
+            {
+                "topic": "Reliability in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/reliability-in-system-design/"
+            },
+            {
+                "topic": "Fault Tolerance in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/fault-tolerance-in-system-design/"
+            },
+            {
+                "topic": "Maintainability",
+                "url": "https://www.geeksforgeeks.org/system-design/maintainability-in-system-design/"
+            }
+        ]
+    },
+    {
+        "title": "Load Balancing",
+        "description": "Traffic distribution techniques in system design.",
+        "topics": [
+            {
+                "topic": "Load Balancer",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-load-balancer-system-design/"
+            },
+            {
+                "topic": "Load Balancing Algorithms",
+                "url": "https://www.geeksforgeeks.org/system-design/load-balancing-algorithms/"
+            },
+            {
+                "topic": "Concurrency and Parallelism",
+                "url": "https://www.geeksforgeeks.org/operating-systems/difference-between-concurrency-and-parallelism/"
+            },
+            {
+                "topic": "Stateless Vs Stateful Load Balancing",
+                "url": "https://www.geeksforgeeks.org/system-design/stateless-vs-stateful-load-balancing/"
+            },
+            {
+                "topic": "Load Balancing vs. Failover",
+                "url": "https://www.geeksforgeeks.org/system-design/load-balancing-vs-failover/"
+            },
+            {
+                "topic": "Consistent Hashing",
+                "url": "https://www.geeksforgeeks.org/system-design/consistent-hashing/"
+            }
+        ]
+    },
+    {
+        "title": "Latency, Throughput and Caching",
+        "description": "Performance optimization metrics and caching strategies.",
+        "topics": [
+            {
+                "topic": "Latency and Throughput",
+                "url": "https://www.geeksforgeeks.org/system-design/latency-in-system-design/"
+            },
+            {
+                "topic": "Caching in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/caching-system-design-concept-for-beginners/"
+            },
+            {
+                "topic": "Design Distributed Cache",
+                "url": "https://www.geeksforgeeks.org/system-design/design-distributed-cache-system-design/"
+            },
+            {
+                "topic": "Edge Caching",
+                "url": "https://www.geeksforgeeks.org/system-design/edge-caching-system-design/"
+            },
+            {
+                "topic": "Cache Eviction Policies",
+                "url": "https://www.geeksforgeeks.org/system-design/cache-eviction-policies-system-design/"
+            },
+            {
+                "topic": "Cold and Warm Cache in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/cold-and-warm-cache-in-system-design/"
+            }
+        ]
+    },
+    {
+        "title": "API Gateway, Message Queues & Rate Limiting",
+        "description": "Focuses on orchestrating communication, queuing messages, and limiting traffic in scalable systems.",
+        "topics": [
+            {
+                "topic": "API Gateway",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-api-gateway-system-design/"
+            },
+            {
+                "topic": "Message Queues",
+                "url": "https://www.geeksforgeeks.org/system-design/message-queues-system-design/"
+            },
+            {
+                "topic": "Rate Limiting",
+                "url": "https://www.geeksforgeeks.org/system-design/rate-limiting-in-system-design/"
+            },
+            {
+                "topic": "Rate Limiting Algorithm",
+                "url": "https://www.geeksforgeeks.org/system-design/rate-limiting-algorithms-system-design/"
+            }
+        ]
+    },
+    {
+        "title": "Protocols, CDN, Proxies & WebSockets",
+        "description": "Networking, caching, and real-time communication fundamentals.",
+        "topics": [
+            {
+                "topic": "Communication Protocols",
+                "url": "https://www.geeksforgeeks.org/system-design/communication-protocols-in-system-design/"
+            },
+            {
+                "topic": "Domain Name System",
+                "url": "https://www.geeksforgeeks.org/computer-networks/domain-name-system-dns-in-application-layer/"
+            },
+            {
+                "topic": "DNS Caching",
+                "url": "https://www.geeksforgeeks.org/computer-networks/what-is-dns-caching/"
+            },
+            {
+                "topic": "Time to Live(TTL)",
+                "url": "https://www.geeksforgeeks.org/computer-networks/what-is-time-to-live-ttl/"
+            },
+            {
+                "topic": "Content Delivery Network(CDN)",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-content-delivery-networkcdn-in-system-design/"
+            },
+            {
+                "topic": "Proxies in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/network-protocols-and-proxies-in-system-design/"
+            },
+            {
+                "topic": "Forward Proxy vs Reverse Proxy",
+                "url": "https://www.geeksforgeeks.org/system-design/difference-between-forward-proxy-and-reverse-proxy/"
+            },
+            {
+                "topic": "Long Polling and Short Polling",
+                "url": "https://www.geeksforgeeks.org/javascript/what-is-long-polling-and-short-polling/"
+            },
+            {
+                "topic": "Websockets",
+                "url": "https://www.geeksforgeeks.org/web-tech/what-is-web-socket-and-how-it-is-different-from-the-http/"
+            }
+        ]
+    },
+    {
+        "title": "Event-Driven Architecture",
+        "description": "Explains event-driven concepts, patterns, and comparisons commonly discussed in system design interviews.",
+        "topics": [
+            {
+                "topic": "Introduction",
+                "url": "https://www.geeksforgeeks.org/computer-networks/what-is-a-distributed-system/"
+            },
+            {
+                "topic": "Event Sourcing Pattern",
+                "url": "https://www.geeksforgeeks.org/system-design/event-sourcing-pattern/"
+            },
+            {
+                "topic": "Event Sourcing Vs Event Streaming",
+                "url": "https://www.geeksforgeeks.org/system-design/event-sourcing-vs-event-streaming-in-system-design/"
+            },
+            {
+                "topic": "Event-Driven APIs in Microservice Architectures",
+                "url": "https://www.geeksforgeeks.org/system-design/event-driven-apis-in-microservice-architectures/"
+            },
+            {
+                "topic": "Error Handling in Event-Driven Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/error-handling-in-event-driven-architecture/"
+            },
+            {
+                "topic": "Restore State in an Event-Based, Message-Driven Microservice Architecture on Failure Scenario",
+                "url": "https://www.geeksforgeeks.org/system-design/how-to-restore-state-in-an-event-based-message-driven-microservice-architecture-on-failure-scenario/"
+            },
+            {
+                "topic": "Event-Driven Architecture Patterns in Cloud Native Applications",
+                "url": "https://www.geeksforgeeks.org/system-design/event-driven-architecture-patterns-in-cloud-native-applications/"
+            },
+            {
+                "topic": "Request-driven Vs Event-driven Microservices",
+                "url": "https://www.geeksforgeeks.org/system-design/request-driven-vs-event-driven-microservices/"
+            },
+            {
+                "topic": "Event-Driven Architecture Vs Microservices Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/event-driven-architecture-vs-microservices-architecture/"
+            },
+            {
+                "topic": "Event-Driven Architecture Vs Data-Driven Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/event-driven-architecture-vs-microservices-architecture/"
+            },
+            {
+                "topic": "Message-Driven Architecture Vs Event-Driven Architecture",
+                "url": "https://www.geeksforgeeks.org/system-design/message-driven-architecture-vs-event-driven-architecture/"
+            }
+        ]
+    },
+    {
+        "title": "Testing",
+        "description": "Testing methods and deployment pipelines to build robust systems.",
+        "topics": [
+            {
+                "topic": "Unit Testing",
+                "url": "https://www.geeksforgeeks.org/software-testing/unit-testing-software-testing/"
+            },
+            {
+                "topic": "Integration Testing",
+                "url": "https://www.geeksforgeeks.org/software-testing/software-engineering-integration-testing/"
+            },
+            {
+                "topic": "System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/getting-started-with-system-design/"
+            },
+            {
+                "topic": "CI/CD Pipeline",
+                "url": "https://www.geeksforgeeks.org/system-design/cicd-pipeline-system-design/"
+            }
+        ]
+    },
+    {
+        "title": "Security Measures",
+        "description": "Explains authentication, authorization, encryption, and disaster recovery in system design.",
+        "topics": [
+            {
+                "topic": "Security Measures in System Design",
+                "url": "https://www.geeksforgeeks.org/system-design/essential-security-measures-in-system-design/"
+            },
+            {
+                "topic": "Authentication and Authorization",
+                "url": "https://www.geeksforgeeks.org/computer-networks/difference-between-authentication-and-authorization/"
+            },
+            {
+                "topic": "Secure Socket Layer (SSL) and Transport Layer Security (TLS)",
+                "url": "https://www.geeksforgeeks.org/computer-networks/difference-between-secure-socket-layer-ssl-and-transport-layer-security-tls/"
+            },
+            {
+                "topic": "Secure Software Development Life Cycle (SSDLC)",
+                "url": "https://www.geeksforgeeks.org/ethical-hacking/what-is-secure-software-development-life-cycle-ssdlc/"
+            },
+            {
+                "topic": "Data Backup and Disaster Recovery",
+                "url": "https://www.geeksforgeeks.org/cloud-computing/what-is-data-backup-and-disaster-recovery/"
+            }
+        ]
+    },
+    {
+        "title": "Distributed System Design",
+        "description": "Explains consensus algorithms, tracing, and security considerations in distributed system design.",
+        "topics": [
+            {
+                "topic": "Introduction",
+                "url": "https://www.geeksforgeeks.org/computer-networks/what-is-a-distributed-system/"
+            },
+            {
+                "topic": "Consensus Algorithms in Distributed System",
+                "url": "https://www.geeksforgeeks.org/operating-systems/consensus-algorithms-in-distributed-system/"
+            },
+            {
+                "topic": "Distributed Tracing",
+                "url": "https://www.geeksforgeeks.org/system-design/distributed-tracing-system-design/"
+            },
+            {
+                "topic": "Secure Communication in Distributed System",
+                "url": "https://www.geeksforgeeks.org/operating-systems/secure-communication-in-distributed-system/"
+            },
+            {
+                "topic": "Design Issues of Distributed System",
+                "url": "https://www.geeksforgeeks.org/system-design/design-issues-of-distributed-system/"
+            }
+        ]
+    },
+    {
+        "title": "Cost & Performance Optimizations",
+        "description": "Explains how to optimize system performance and estimate software costs effectively.",
+        "topics": [
+            {
+                "topic": "Software Cost Estimation",
+                "url": "https://www.geeksforgeeks.org/software-engineering/software-cost-estimation/"
+            },
+            {
+                "topic": "Performance Optimization Techniques",
+                "url": "https://www.geeksforgeeks.org/system-design/optimization-techniques-for-system-design/"
+            },
+            {
+                "topic": "Cost Vs Performance",
+                "url": "https://www.geeksforgeeks.org/system-design/cost-vs-performance/"
+            }
+        ]
+    },
+    {
+        "title": "Low Level Design(LLD)",
+        "description": "Detailed design of system components, focusing on implementation-level structure and code organization",
+        "topics": []
+    },
+    {
+        "title": "Core Concepts",
+        "description": "Explains how to design classes, modules, and interfaces in system design interviews.",
+        "topics": [
+            {
+                "topic": "Object-Oriented Programming(OOP) Concepts",
+                "url": "https://www.geeksforgeeks.org/system-design/object-oriented-programingoop-concepts-for-designing-sytems/"
+            },
+            {
+                "topic": "Modularity and Interfaces",
+                "url": "https://www.geeksforgeeks.org/system-design/inroduction-to-modularity-and-interfaces-in-system-design/"
+            },
+            {
+                "topic": "Low Level Design or LLD",
+                "url": "https://www.geeksforgeeks.org/system-design/what-is-low-level-design-or-lld-learn-system-design/"
+            },
+            {
+                "topic": "Difference between High Level Design(HLD) and Low Level Design(LLD)",
+                "url": "https://www.geeksforgeeks.org/system-design/difference-between-high-level-design-and-low-level-design/"
+            }
+        ]
+    },
+    {
+        "title": "Design Principles",
+        "description": "Explains SOLID, DRY, KISS, and YAGNI principles for robust software design",
+        "topics": [
+            {
+                "topic": "SOLID Principles",
+                "url": "https://www.geeksforgeeks.org/system-design/solid-principle-in-programming-understand-with-real-life-examples/"
+            },
+            {
+                "topic": "DRY Principle",
+                "url": "https://www.geeksforgeeks.org/software-engineering/dont-repeat-yourselfdry-in-software-development/"
+            },
+            {
+                "topic": "KISS Principle",
+                "url": "https://www.geeksforgeeks.org/software-engineering/kiss-principle-in-software-development/"
+            },
+            {
+                "topic": "YAGNI Principle",
+                "url": "https://www.geeksforgeeks.org/software-engineering/what-is-yagni-principle-you-arent-gonna-need-it/"
+            }
+        ]
+    },
+    {
+        "title": "UML",
+        "description": "Visualizing system design using UML diagrams.",
+        "topics": [
+            {
+                "topic": "Unified Modeling Language (UML)",
+                "url": "https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-introduction/"
+            }
+        ]
+    }
+]
