@@ -3,14 +3,22 @@
 Bitly is a URL shortening service that converts long web links into shorter, easy-to-share URLs while also providing analytics to track clicks and engagement.
 
 ## 1. Requirements
-### Functional Requirements:
-- Users can create short URLs from original URLs, with optional custom aliases and expiration dates.
-- Users can access the original URL by browsing the short URL.
-### Non-Functional Requirements:
-- Shortened URLs must be unique.
-- Redirection latency must be under 100 milliseconds.
-- Availability is prioritized over consistency (AP system from CAP Theorem).
-- The system must support 1 billion URLs and 100 million daily active users (DAU).
+## Functional Requirements
+
+|No.| Requirement |
+|---|-------------|
+| 1 | Users can create short URLs from original URLs, with optional custom aliases and expiration dates. |
+| 2 | Users can access the original URL by browsing the short URL. |
+
+## Non-Functional Requirements
+
+|No. | Requirement |
+|---|-------------|
+| 1 | Shortened URLs must be unique. |
+| 2 | Redirection latency must be under 100 milliseconds. |
+| 3 | Availability is prioritized over consistency (AP system from CAP Theorem). |
+| 4 | The system must support 1 billion URLs and 100 million daily active users (DAU). |
+
 ## 2. Core Entities
 - **Original URL**: The full-length target URL.
 - **Shortened URL**: The generated or custom alias that redirects to the original URL.
@@ -76,7 +84,7 @@ The system comprises several key components:
     - Example: 
         - input_url = "https://github.com/masterbhuvnesh"
         - random_number = Math.random()
-        - short_code_encoded = base62_encode(random_number_
+        - short_code_encoded = base62_encode(random_number)
         - short_code=short_code_encoded[:8]
 
     - Cons: As urls increase, the chance of collision increases.
@@ -131,9 +139,9 @@ A database alone cannot handle peak traffic; caching is essential.
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/bitly.flow.png">
-  <source media="(prefers-color-scheme: light)" srcset="../assets/bitly.flow.dark.png">
-  <img alt="Bitly Flow Integration" src="../assets/bitly.flow.dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="../application assets/bitly.flow.png">
+  <source media="(prefers-color-scheme: light)" srcset="../application assets/bitly.flow.dark.png">
+  <img alt="Bitly Flow Integration" src="../application assets/bitly.flow.dark.png">
 </picture>
 
 ### 5.3 Scaling to 1B URLs and 100M DAU
@@ -170,9 +178,9 @@ Assuming 100K new URLs per day ≈ 1 write/second, easily handled by databases l
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/bitly.aws.png">
-  <source media="(prefers-color-scheme: light)" srcset="../assets/bitly.aws.dark.png">
-  <img alt="Bitly AWS Integration" src="../assets/bitly.aws.dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="../application assets/bitly.aws.png">
+  <source media="(prefers-color-scheme: light)" srcset="../application assets/bitly.aws.dark.png">
+  <img alt="Bitly AWS Integration" src="../application assets/bitly.aws.dark.png">
 </picture>
 
 
