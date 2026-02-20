@@ -139,9 +139,9 @@ A database alone cannot handle peak traffic; caching is essential.
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../application assets/bitly.flow.png">
-  <source media="(prefers-color-scheme: light)" srcset="../application assets/bitly.flow.dark.png">
-  <img alt="Bitly Flow Integration" src="../application assets/bitly.flow.dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="../application assets/bitly.flow.dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="../application assets/bitly.flow.png">
+  <img alt="Bitly Flow Integration" src="../application assets/bitly.flow.png">
 </picture>
 
 ### 5.3 Scaling to 1B URLs and 100M DAU
@@ -178,9 +178,9 @@ Assuming 100K new URLs per day ≈ 1 write/second, easily handled by databases l
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../application assets/bitly.aws.png">
-  <source media="(prefers-color-scheme: light)" srcset="../application assets/bitly.aws.dark.png">
-  <img alt="Bitly AWS Integration" src="../application assets/bitly.aws.dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="../application assets/bitly.aws.dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="../application assets/bitly.aws.png">
+  <img alt="Bitly AWS Integration" src="../application assets/bitly.aws.png">
 </picture>
 
 
